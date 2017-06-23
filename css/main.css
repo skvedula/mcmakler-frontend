@@ -6,10 +6,23 @@ body {
     margin-bottom: 25px;
 }
 
+h4 {
+	color: #333;
+}
+
+p {
+	color: #b8b8b8;
+}
+
 li {
 	padding: 0 10px;
+	color: #a0a0a0;
 }
 
 .portfolio-item div.col-md-12 { /* thin grey border around elements */
-	border: 1px solid #e4e4e4;
+	border: 1px solid #dddddd;
+}
+
+.navbar {
+	padding-top: 20px;
 }
