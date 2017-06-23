@@ -1,6 +1,6 @@
 # START
 
-1. Please open the index.html file in a web browser to see the Web Page
+1. Please open respective Parts(A/B) and open the index.html file in a web browser to see the Web Page
 
 ------------------------------------------------------------------------------
 
