@@ -2,6 +2,8 @@
 
 1. Please open the index.html file in a web browser to see the Web Page
 
+------------------------------------------------------------------------------
+
 # Front-End Interview Test
 
 This is a simple front-end code challenge created to serve two purposes:

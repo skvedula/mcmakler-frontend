@@ -6,6 +6,15 @@ body {
     margin-bottom: 25px;
 }
 
+.over-text {
+	position: absolute;
+	background-color: white;
+	left: 40px;
+	top: 20px;
+	padding: 5px 10px;
+	color: #a0a0a0;
+}
+
 h4 {
 	color: #333;
 }
