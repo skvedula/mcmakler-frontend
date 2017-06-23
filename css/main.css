@@ -1,0 +1,15 @@
+body {
+    padding-top: 70px; /* Some threshold padding to look good */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+li {
+	padding: 0 10px;
+}
+
+.portfolio-item div.col-md-12 { /* thin grey border around elements */
+	border: 1px solid #e4e4e4;
+}
