@@ -22,11 +22,11 @@ app.controller('DataCtrl', ['$scope', '$http', function($scope, $http) {
                     'Content-Type': 'application/json'
                 }
             };
-        var url = "https://api.mcmakler.de/v1/advertisements";
+        var url = "http://localhost:8080/api";
         // Stuck Here
         $http.get(url, config)
-        .success(function (data, status, headers, config) {
-            console.log("Came here", data);
+        .success(function (res, status, headers, config) {
+            var data = res["data"].slice(0,10);
             $scope.items = data;
         })
         .error(function (data, status, header, config) {
