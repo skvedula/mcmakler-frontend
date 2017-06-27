@@ -26,7 +26,7 @@ app.controller('DataCtrl', ['$scope', '$http', function($scope, $http) {
         // Stuck Here
         $http.get(url, config)
         .success(function (res, status, headers, config) {
-            var data = res["data"].slice(0,9);
+            var data = res["data"].slice(0,10);
             $scope.items = data;
         })
         .error(function (data, status, header, config) {

@@ -30,7 +30,7 @@
                 <div class="over-text"> Mieten </div>
                 <img class="img-responsive" src="images/placeholder_image.jpg" alt="">
                 <div class="col-md-12">
-                  <h4> {{ item.title }} </h4>
+                  <h5> {{ item.title }} </h5>
                   <p> {{ item.realestateSummary.address.postalCode }} Sinn/{{ item.realestateSummary.address.city }} </p>
                   <nav class="navbar" role="navigation">
                       <span> 
@@ -38,7 +38,7 @@
                       </span>
                       <div class="nav navbar-nav pull-right">
                         <li> {{item.realestateSummary.noOfRooms}} Zimmer</li> 
-                        <li style="border-left: 1px solid #e4e4e4;">ab {{ item.realestateSummary.space}} m<sup>2</sup></li>
+                        <li style="border-left: 1px solid #e4e4e4;">ab {{ item.realestateSummary.space | number : 2}} m<sup>2</sup></li>
                       </div>
                   </nav>
                 </div>
